@@ -1,0 +1,24 @@
+:root {
+  --primary-font: 'Hanken Grotesk', sans-serif;
+}
+
+.font-xl-bk {
+  font-weight: 900;
+  font-size: 4.5rem;
+  line-height: 1.1;
+}
+
+.font-l-b {
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.font-m-b {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.font-s {
+  font-weight: 500;
+  font-size: 1.125rem;
+}

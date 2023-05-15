@@ -1,0 +1,46 @@
+:root {
+  /* Neutral */
+  --w: hsl(0, 0%, 100%);
+  --n1: hsl(241, 100%, 89%);
+  --n2: hsl(224, 30%, 27%);
+  --n3: hsl(230, 9%, 62%);
+  
+  /* Shadow */
+  --shadow: hsl(221, 100%, 96%);
+
+  /* Primary */
+  --r1: hsl(0, 100%, 67%);
+  --r2: hsl(0, 100%, 96%);
+  --o1: hsl(39, 100%, 56%);
+  --o2: hsl(39, 100%, 96%);
+  --g1: hsl(166, 100%, 37%);
+  --g2: hsl(166, 100%, 96%);
+  --b1: hsl(234, 85%, 45%);
+  --b2: hsl(234, 85%, 96%);
+
+  /* Gradient */
+  --gr1: hsl(252, 100%, 67%);
+  --gr2: hsl(241, 81%, 54%);
+  --gr3: hsla(256, 72%, 46%, 1);
+  --gr4: hsla(241, 72%, 46%, 0);
+}
+
+.salmon {
+  color: var(--r1);
+  background-color: var(--r2);
+}
+
+.orangey {
+  color: var(--o1);
+  background-color: var(--o2);
+}
+
+.green-teal {
+  color: var(--g1);
+  background-color: var(--g2);
+}
+
+.cobalt-blue {
+  color: var(--b1);
+  background-color: var(--b2);
+}

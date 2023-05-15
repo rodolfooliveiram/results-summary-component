@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,19 +8,61 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./css/style.css">
+
   <title>Frontend Mentor | Results Summary Component</title>
-
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
-<body>
-  
 
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Rodolfo Oliveira</a>.
+<body>
+
+  <div class="results-component">
+    <div class="result">
+      <h2 class="font-m-b">Your Result</h2>
+      <div>
+        <h1 class="font-xl-bk">76<span class="font-s">of 100</span></h1>        
+      </div>
+      <h3 class="font-l-b">Great</h3>
+      <p class="font-s">You scored higher than 65% of the people who have taken these tests.</p>
+    </div>
+
+    <div class="summary">
+      <h2 class="font-m-b">Summary</h2>
+      <ul class="font-s">
+        <li class="category salmon">
+          <img src="./assets/images/icon-reaction.svg" alt="">
+          <p>Reaction <span>80 <span class="score">/ 100</span></p>
+        </li>
+
+        <li class="category orangey">
+          <img src="./assets/images/icon-memory.svg" alt="">
+          <p>Memory <span>92 <span class="score">/ 100</span></span></p>
+        </li>
+
+        <li class="category green-teal">
+          <img src="./assets/images/icon-verbal.svg" alt="">
+          <p>Verbal <span>61 <span class="score">/ 100</span></p>
+        </li>
+
+        <li class="category cobalt-blue">
+          <img src="./assets/images/icon-visual.svg" alt="">
+          <p>Visual <span>72 <span class="score">/ 100</span></span></p>
+        </li>
+      </ul>
+
+      <a href="" class="btn font-s">Continue</a>
+    </div>
   </div>
+
+
+
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://github.com/rodolfooliveiram/results-summary-component" target="_blank">Rodolfo Oliveira</a>.
+  </div> -->
 </body>
+
 </html>

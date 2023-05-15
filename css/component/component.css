@@ -1,0 +1,139 @@
+body {
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+}
+
+.results-component {
+  max-width: 736px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  box-shadow: 8px 32px 70px 4px var(--shadow);
+  border-radius: 32px;
+}
+
+.result {
+  background: linear-gradient(var(--gr1), var(--gr2));
+  padding: 44px;
+  border-radius: 32px 0 0 32px;
+  display: grid;
+  justify-items: center;
+  text-align: center;
+  z-index: 1;
+}
+
+.result h2 {
+  color: var(--n1);
+  margin-bottom: 32px;
+}
+
+.result > div {
+  background: linear-gradient(var(--gr3), var(--gr4));
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: grid;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.result h1 {
+  color: var(--w);
+  display: grid;
+}
+
+.result h1 span {
+  color: var(--n1);
+}
+
+.result h3 {
+  color: var(--w);
+  margin-bottom: 20px;
+}
+
+.result p {
+  color: var(--n1);
+  max-width: 25ch;
+}
+
+.summary {
+  padding: 44px 40px;
+}
+
+.summary h2 {
+  color: var(--n2);
+  margin-bottom: 32px;
+}
+
+.summary li + li {
+  margin-top: 16px;
+}
+
+.summary ul {
+  margin-bottom: 42px;
+}
+
+.category {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  padding: 18px 16px;
+  border-radius: 12px;
+  align-items: center;
+  min-width: 288px;
+}
+
+.category p {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 12px;
+}
+
+.category p > span {
+  color: var(--n2);
+  font-weight: bold;
+}
+
+.category .score {
+  color: var(--n3);
+  margin-left: 3px;
+}
+
+.btn {
+  display: block;
+  text-align: center;
+  background-color: var(--n2);
+  color: var(--w);
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border-radius: 28px;
+  position: relative;
+  z-index: 1;
+}
+
+.btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: linear-gradient(var(--gr1), var(--gr2));
+  border-radius: 28px;
+  z-index: -1;
+  transition: opacity 0.4s ease;
+  opacity: 0;
+}
+
+.btn:hover::before {
+  opacity: 1;
+}
+
+@media (max-width: 750px) {
+  .results-component {
+    grid-template-columns: 1fr;
+  }
+
+  .result {
+    border-radius: 0 0 32px 32px;
+  }
+}
