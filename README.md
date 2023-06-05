@@ -7,6 +7,7 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
+  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
 - [Author](#author)
@@ -23,6 +24,10 @@ Users should be able to:
 ### Screenshot
 
 ![](./screenshot.jpg)
+
+### Links
+
+- [Live Site URL](https://rodolfooliveiram.github.io/results-summary-component/)
 
 ## My process
 
